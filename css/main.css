@@ -1,0 +1,383 @@
+html,body {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+   color: #FFFFFF;
+}
+a:hover {
+  text-decoration: none;
+   color: #FFFFFF;
+}
+@font-face {
+  font-family: 'Tradesmith Stamp';
+  src: url('../fonts/TradesmithStamp.woff2') format('woff2'),
+      url('../fonts/TradesmithStamp.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+#mobile-nav {
+  display: none;
+  padding: 5%;
+}
+.mobile-header{
+  display: none;
+}
+.navbar-toggler{
+  float: right;
+  border: none!important;
+}
+.navbar-toggler-icon {
+  color: #FFFFFF!important;
+  opacity: 1;
+}
+.bg-dark {
+  background-color: #000000!important;
+}
+.header-image {
+    height: 920px;
+    background: linear-gradient(0deg, rgba(255, 164, 1, 0.3), rgba(255, 164, 1, 0.3)), url(../img/1.jpg) no-repeat center center fixed; 
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* navigation */
+.navbar-desktop{
+    margin-left:5%;
+    margin-right:5%;
+
+}
+.navbarNav{
+    background-color:#FFFFFF;
+    border-radius: 10px;
+  
+
+   
+    
+   
+    
+}
+.navbarNav li {
+  transition: all 0.5s ;
+}
+.navbarNav li:hover{
+  background-color:#FFA401;
+  color: #000000;
+
+}
+.navItem {
+    padding: 5px 15px;
+    border-right:1px solid rgba(0, 0, 0, 0.5);
+    
+}
+.navItem-1 {
+    padding: 5px 15px;
+    
+}
+.nav-link{
+    color: #000000!important;
+}
+
+.left-pane {
+   
+    margin-top: 5%;
+    
+}
+.form-container {
+    background-color: #ffffff;
+  
+    
+    box-shadow: 0px 4px 38px -8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 70%;
+   
+}
+.form-items {
+    width: 80%;
+    margin:auto;
+}
+.avatar {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("../img/social media icon-47.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 25%;
+  }
+  .form-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.2857px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  
+  .form-paragraph{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  form input {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin-top: 25px;
+  }
+  input:focus {
+    border: 1px solid #FFA401;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+  }
+  .form-join-btn{
+    background: #FFA401;
+    border: 1px solid #FFA401;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin-top: 25px;
+    color:#ffffff;
+    margin-bottom: 50px;
+    transition: all 0.5s ease-in-out;
+  }
+  .form-join-btn:hover{
+    background-color: #000000;
+    color: #FFA401;
+  }
+  .right-pane-items {
+   text-align: center;
+   margin:auto;
+   
+   margin-top: 30%;
+   
+  }
+  .right-pane-items h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62.46px;
+    line-height: 76px;   
+    color:#ffffff;
+    font-family: Tradesmith Stamp;
+  }
+  .scroll {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 22px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    width: 46px;
+    margin: auto;
+    margin-top:121px;
+    /* margin-left: 79%; */
+    }
+    .scroll-icon {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 22px;
+    color: #FFFFFF;
+    animation: fullwidth-header-bounce 2.2s ease-out infinite;
+    width: 46px;
+    margin: auto;
+    margin-top:20px;
+    /* margin-left: 80.5%; */
+    }
+    @keyframes fullwidth-header-bounce {
+      0% { transform:translateY(0%); }
+      12.5% { transform:translateY(20%); }
+      25% { transform:translateY(0%); }
+      37.5% { transform:translateY(20%); }
+      50% { transform:translateY(0%); }
+    }
+  
+  section {
+      margin-top: 10%;
+  }
+  .section-h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46.1139px;
+    line-height: 50px;
+    color: #000000;
+    font-family: Tradesmith Stamp;
+    margin-top:20%;
+    margin-bottom: 30px;
+  }
+  .button {
+   color: #FFFFFF;
+    width: 140px;
+    padding: 10px;
+    background: #FFA401;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+  .button a {
+      color: #FFFFFF;
+      text-decoration: none;
+  }
+  .button:hover{
+    background-color: #000000;
+    color: #FFA401;
+  }
+  .section3 {
+    width: 70%;
+      
+  }
+  .section3-h1 {
+    font-family: Tradesmith Stamp;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46.1139px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  .button3{
+    color: #FFFFFF;
+    width: 140px;
+    padding: 10px;
+    background: #FFA401;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto; 
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+   a .button3{
+    color: #FFFFFF;
+    text-decoration: none; 
+  }
+  .button3:hover{
+    background-color: #000000;
+    color: #FFA401;
+  }
+  footer{
+      background-color: #000000;
+      padding: 30px;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 130px;
+  }
+  .social-icons span i {
+    padding: 10px;
+    font-size: 1.4em;
+  }
+  .social-icons span a{
+    color: #ffffff;
+  }
+  @media only screen and (max-width: 767px) {
+    .header-image {
+      height: auto;
+    }
+    .navbar-desktop{
+      display: none;
+  
+  }
+    #mobile-nav {
+      display: block;
+    }
+    .nav-link{
+      color: #FFFFFF!important;
+  }
+    .form-container {
+      width: 100%;
+      margin-bottom: 20%;
+  }
+  .form-items {
+      width: 100%;
+      /* margin:5px; */
+      padding: 20px;
+  }
+  .avatar {
+    
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+      margin-left: 30%;
+    }
+    form input {
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 50px;
+      width: 100%;
+      height: 50px;
+      padding: 15px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      font-size: 0.9em;
+    }
+
+    .right-pane-items  {
+      display: none;
+    }
+    .mobile-header{
+    display: block;
+      padding-top: 15%;
+    }
+    .mobile-header h1 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.9em;
+      
+      color:#ffffff;
+      font-family: Tradesmith Stamp;
+    }
+    .section-h1,.section3-h1 {
+      
+      font-size: 1.4em;
+      text-align: center;
+      line-height: 35px;
+     
+    }
+    .button {
+      margin: auto;
+    }
+    footer{
+      margin-top: 50px;
+    }
+    footer  p  {
+      font-size: 0.9em;
+    }
+    .social-icons span i {
+      padding: 5px;
+      font-size: 0.9em;
+    }
+  
+  }
+  @media only screen and (min-device-width: 768px) and (max-width: 800px){
+    .form-container {
+      width: 100%;
+      margin-bottom: 20%;
+  }
+  footer  p {
+    font-size: 0.9em;
+  }
+  
+}
